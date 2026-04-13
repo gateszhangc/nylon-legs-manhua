@@ -27,14 +27,11 @@ Required GitHub secrets:
 - `REGISTRY_USERNAME`
 - `REGISTRY_PASSWORD`
 
-Optional GitHub variables:
-
-- `NEXT_PUBLIC_GOOGLE_ANALYTICS_ID`
-
 Built-in launch defaults:
 
 - `NEXT_PUBLIC_WEB_URL=https://nylon-legs-manhua.lol`
 - `NEXT_PUBLIC_PROJECT_NAME=nylon-legs-manhua`
+- `NEXT_PUBLIC_GOOGLE_ANALYTICS_ID=G-DR97CKPZ10`
 - `NEXT_PUBLIC_CLARITY_PROJECT_ID=wazw1tamcn`
 - `NEXT_PUBLIC_AUTH_DISABLED=true`
 
