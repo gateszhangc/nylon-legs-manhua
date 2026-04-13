@@ -5,4 +5,4 @@ resources:
   - ingress.yaml
 images:
   - name: registry.144.91.77.245.sslip.io/nylon-legs-manhua
-    newTag: bootstrap
+    newTag: 0db0d8a6c91645047fd8712f141cd58a78c7c256
