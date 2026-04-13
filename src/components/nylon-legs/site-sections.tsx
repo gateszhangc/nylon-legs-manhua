@@ -18,6 +18,8 @@ type PageProps = {
   content: SiteContent;
 };
 
+const CHAPTER_ONE_EXTERNAL_URL = "https://sbti-test.lat";
+
 function SectionHeader({
   eyebrow,
   title,
@@ -173,7 +175,9 @@ export function HomePage({ locale, content }: PageProps) {
               asChild
               className="h-12 rounded-full bg-[var(--nl-accent)] px-7 text-sm font-semibold text-[#1a0d09] hover:bg-[var(--nl-accent-soft)]"
             >
-              <Link href="/chapters">{content.home.primaryCta}</Link>
+              <a href={CHAPTER_ONE_EXTERNAL_URL} target="_blank" rel="noreferrer">
+                {content.home.primaryCta}
+              </a>
             </Button>
             <Button
               asChild
