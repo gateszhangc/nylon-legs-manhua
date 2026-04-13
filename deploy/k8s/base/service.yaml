@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: nylon-legs-manhua
+  labels:
+    app.kubernetes.io/name: nylon-legs-manhua
+    app.kubernetes.io/part-of: nylon-legs-manhua
+spec:
+  type: ClusterIP
+  selector:
+    app.kubernetes.io/name: nylon-legs-manhua
+    app.kubernetes.io/part-of: nylon-legs-manhua
+  ports:
+    - name: http
+      port: 80
+      targetPort: http

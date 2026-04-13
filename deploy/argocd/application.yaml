@@ -1,0 +1,20 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: nylon-legs-manhua
+  namespace: argocd
+spec:
+  project: nylon-legs-manhua
+  source:
+    repoURL: https://github.com/gateszhangc/nylon-legs-manhua.git
+    targetRevision: main
+    path: deploy/k8s/overlays/prod
+  destination:
+    server: https://kubernetes.default.svc
+    namespace: nylon-legs-manhua
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
+    syncOptions:
+      - CreateNamespace=true

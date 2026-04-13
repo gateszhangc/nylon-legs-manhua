@@ -1,0 +1,35 @@
+<svg width="1200" height="1600" viewBox="0 0 1200 1600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="1600" rx="72" fill="#140D0C"/>
+  <rect x="36" y="36" width="1128" height="1528" rx="48" stroke="#FFF4E8" stroke-opacity="0.10" stroke-width="2"/>
+  <circle cx="900" cy="260" r="240" fill="url(#paint0_radial)" fill-opacity="0.88"/>
+  <circle cx="306" cy="1180" r="300" fill="url(#paint1_radial)" fill-opacity="0.7"/>
+  <path d="M148 160H196V424C196 499.111 239.889 542 304 542H334V590H294C189.141 590 148 538.624 148 434V160Z" fill="#FFF4E8"/>
+  <path d="M380 160H444V208H380V160Z" fill="#D9AA63"/>
+  <path d="M380 232H444V590H404C390.745 590 380 579.255 380 566V232Z" fill="#FFF4E8"/>
+  <path d="M446 160C446 186.51 424.51 208 398 208V160H446Z" fill="#B56C52"/>
+  <path d="M574 290H964V352H684V456H922V518H684V642H968V706H574V290Z" fill="#FFF4E8"/>
+  <path d="M144 722H494V770H144V722Z" fill="#FFF4E8"/>
+  <path d="M144 804H792V832H144V804Z" fill="#C7B39E"/>
+  <path d="M144 862H704V890H144V862Z" fill="#C7B39E"/>
+  <path d="M144 920H742V948H144V920Z" fill="#C7B39E"/>
+  <path d="M144 1048H1058V1050H144V1048Z" stroke="#FFF4E8" stroke-opacity="0.14" stroke-width="4"/>
+  <rect x="144" y="1102" width="408" height="284" rx="36" fill="#FFFFFF" fill-opacity="0.04" stroke="#FFF4E8" stroke-opacity="0.08"/>
+  <rect x="594" y="1102" width="462" height="284" rx="36" fill="#FFFFFF" fill-opacity="0.03" stroke="#FFF4E8" stroke-opacity="0.08"/>
+  <path d="M182 1146H456V1174H182V1146Z" fill="#FFF4E8"/>
+  <path d="M182 1204H458V1228H182V1204Z" fill="#C7B39E"/>
+  <path d="M182 1250H430V1274H182V1250Z" fill="#C7B39E"/>
+  <path d="M632 1146H992V1174H632V1146Z" fill="#FFF4E8"/>
+  <path d="M632 1204H958V1228H632V1204Z" fill="#C7B39E"/>
+  <path d="M632 1250H930V1274H632V1250Z" fill="#C7B39E"/>
+  <text x="148" y="1470" fill="#C7B39E" font-size="28" letter-spacing="10">19+ KOREAN WEBTOON  •  BILINGUAL EDITORIAL READER</text>
+  <defs>
+    <radialGradient id="paint0_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(900 260) rotate(90) scale(240)">
+      <stop stop-color="#D9AA63"/>
+      <stop offset="1" stop-color="#D9AA63" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="paint1_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(306 1180) rotate(90) scale(300)">
+      <stop stop-color="#8E5247"/>
+      <stop offset="1" stop-color="#8E5247" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+</svg>
