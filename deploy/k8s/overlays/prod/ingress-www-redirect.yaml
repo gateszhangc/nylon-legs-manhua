@@ -1,21 +1,19 @@
 apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
-  name: nylon-legs-manhua
+  name: nylon-legs-manhua-www-redirect
   annotations:
-    acme.cert-manager.io/http01-edit-in-place: "true"
-    cert-manager.io/cluster-issuer: letsencrypt-prod
-    cert-manager.io/issue-temporary-certificate: "true"
     nginx.ingress.kubernetes.io/force-ssl-redirect: "true"
+    nginx.ingress.kubernetes.io/permanent-redirect: https://nylon-legs-manhua.lol$request_uri
+    nginx.ingress.kubernetes.io/permanent-redirect-code: "308"
 spec:
   ingressClassName: nginx
   tls:
     - secretName: nylon-legs-manhua-live-tls
       hosts:
-        - nylon-legs-manhua.lol
         - www.nylon-legs-manhua.lol
   rules:
-    - host: nylon-legs-manhua.lol
+    - host: www.nylon-legs-manhua.lol
       http:
         paths:
           - path: /
